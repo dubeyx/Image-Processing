@@ -11,13 +11,13 @@ import numpy as np
 # In[47]:
 
 
-a=cv2.imread(r"/Users/harshadhikari/Downloads/koldalen.jpg")
+a=cv2.imread(r"nature.jpg")
 
 
 # In[8]:
 
 
-loc=r"/Users/harshadhikari/Downloads/koldalen.jpg"
+loc=r"nature.jpg"
 
 
 # In[9]:
@@ -207,7 +207,7 @@ im.show()
 
 #image histogram
 import matplotlib.pyplot as plt
-n=cv2.imread(r"/Users/harshadhikari/Downloads/koldalen.jpg",0)
+n=cv2.imread(r"nature.jpg",0)
 plt.hist(n.ravel(),256,[0,256])
 plt.show()
 

@@ -16,6 +16,10 @@ Questions
 
 <hr>
 
+<b>Lab -1 </b>
+
+Questions
+
 1. Perform translation, scaling and rotation on an image
 2. In a coloured image perform affine transformation
 3. In a coloured image extract all R,B and G Perform smoothing (moving avg) on a given image. 

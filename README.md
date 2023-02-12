@@ -16,7 +16,7 @@ Questions
 
 <hr>
 
-<b>Lab -1 </b>
+<b>Lab -2 </b>
 
 Questions
 

@@ -16,3 +16,13 @@ Questions
 
 <hr>
 
+1. Perform translation, scaling and rotation on an image
+2. In a coloured image perform affine transformation
+3. In a coloured image extract all R,B and G Perform smoothing (moving avg) on a given image. 
+In one case pad rows and columns.
+In 2nd case dont allow any extra rows or columns, i.e. do padding in such a way
+4. Perform gaussian and compare w moving avg by extracting a small patch
+5. Perform median filter on an image
+6. If we increase the dimension of a filter, how will it impact the output image?
+
+<hr>

@@ -30,3 +30,14 @@ In 2nd case dont allow any extra rows or columns, i.e. do padding in such a way
 6. If we increase the dimension of a filter, how will it impact the output image?
 
 <hr>
+
+<b> Lab - 3 </b>
+
+Questions
+
+Q1. Apply the prewitt and sobel filters on random image (that have fews edges), and compare the result with original image. 
+Q2. Increase the weight at positions [x,y+1], [x+1,y], [x-1,y], [x, y-1] in 3*3 sobel filter, and infer how it will impact the edge image concerning the benchmark sobel. 
+Q3. Apply the LOG filter on the same image that you have taken in Q2, and compare the edge results with output of Q2.
+
+
+<hr>

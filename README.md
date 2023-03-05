@@ -41,3 +41,17 @@ Q3. Apply the LOG filter on the same image that you have taken in Q2, and compar
 
 
 <hr>
+
+<b> Lab -4 </b>
+
+Questions
+
+Q1 Take a patch of size 5*5 with random intensity values. Apply the x-kernel [-1,0,1] and y-kernel [-1,0,1]^T to get the first order gradient in both the dimensions.
+Q2. Compute the Harris matrix from these computed gradients.
+Q3. Compute the Eigen values and the Eigen vectors for the computed Harris matrix.
+Q4. Based on the computed Eigen values of the Harris matrix, identify whether the output patch is, an edge, a corner, or a flat surface.
+
+<hr>
+
+
+

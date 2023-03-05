@@ -35,9 +35,9 @@ In 2nd case dont allow any extra rows or columns, i.e. do padding in such a way
 
 Questions
 
-Q1. Apply the prewitt and sobel filters on random image (that have fews edges), and compare the result with original image. 
-Q2. Increase the weight at positions [x,y+1], [x+1,y], [x-1,y], [x, y-1] in 3*3 sobel filter, and infer how it will impact the edge image concerning the benchmark sobel. 
-Q3. Apply the LOG filter on the same image that you have taken in Q2, and compare the edge results with output of Q2.
+1. Apply the prewitt and sobel filters on random image (that have fews edges), and compare the result with original image. <br>
+2. Increase the weight at positions [x,y+1], [x+1,y], [x-1,y], [x, y-1] in 3*3 sobel filter, and infer how it will impact the edge image concerning the benchmark sobel. <br>
+3. Apply the LOG filter on the same image that you have taken in Q2, and compare the edge results with output of Q2.<br>
 
 
 <hr>
@@ -46,10 +46,10 @@ Q3. Apply the LOG filter on the same image that you have taken in Q2, and compar
 
 Questions
 
-Q1 Take a patch of size 5*5 with random intensity values. Apply the x-kernel [-1,0,1] and y-kernel [-1,0,1]^T to get the first order gradient in both the dimensions.<br>
-Q2. Compute the Harris matrix from these computed gradients. <br>
-Q3. Compute the Eigen values and the Eigen vectors for the computed Harris matrix.<br>
-Q4. Based on the computed Eigen values of the Harris matrix, identify whether the output patch is, an edge, a corner, or a flat surface.<br>
+1. Take a patch of size 5*5 with random intensity values. Apply the x-kernel [-1,0,1] and y-kernel [-1,0,1]^T to get the first order gradient in both the dimensions.<br>
+2. Compute the Harris matrix from these computed gradients. <br>
+3. Compute the Eigen values and the Eigen vectors for the computed Harris matrix.<br>
+4. Based on the computed Eigen values of the Harris matrix, identify whether the output patch is, an edge, a corner, or a flat surface.<br>
 
 
 
